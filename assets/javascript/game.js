@@ -26,7 +26,7 @@ function generateRandomNumbers () {
     sapphireRandom = generateRandom(1, 12);
     topazRandom = generateRandom(1, 12);
 
-    //console.log("compRandom: " + compRandom + "; diamondRandom: " + diamondRandom + "; rubyRandom: " + rubyRandom + "; sapphireRandom: " + sapphireRandom + "; topazRandom: " + topazRandom);
+    console.log("compRandom: " + compRandom + "; diamondRandom: " + diamondRandom + "; rubyRandom: " + rubyRandom + "; sapphireRandom: " + sapphireRandom + "; topazRandom: " + topazRandom);
 }
 
 // Function to display game stats
@@ -57,7 +57,7 @@ function addPoints (points) {
         cntWins++;
 
         alert("You won!");
-        //console.log("Won game! userScore: " + userScore + " equals compRandom: " + compRandom);
+        console.log("Won game! userScore: " + userScore + " equals compRandom: " + compRandom);
         
         displayStats();
             
@@ -67,7 +67,7 @@ function addPoints (points) {
         cntLoses++;
 
         alert("You lost!");
-        //console.log("Lost game! userScore: " + userScore + " greater than compRandom: " + compRandom);
+        console.log("Lost game! userScore: " + userScore + " greater than compRandom: " + compRandom);
             
         displayStats();
             

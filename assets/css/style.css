@@ -10,21 +10,21 @@ body {
 }
 
 .container {
-    border: 3px solid blue;
     padding: 1px;    
 }
 
-/* First Row - Header */
-
-.col-md-4 {
-    border: 3px solid red;
+.col-md-1,
+.col-md-2,
+.col-md-4,
+.col-md-6 {
     background-color: transparent;
     margin: 0px;
     margin-bottom: 0px;
 }
 
+/* First Row - Header */
+
 .header {
-    border: 3px solid black;
     background-color: rgb(255, 153, 0);
     color: white;
     text-align: center;
@@ -32,15 +32,7 @@ body {
 
 /* Second Row - Rules */
 
-.col-md-6 {
-    border: 3px solid red;
-    background-color: transparent;
-    margin: 0px;
-    margin-bottom: 0px;
-}
-
 #rules {
-    border: 3px solid black;
     background-color: lightyellow;
     color: rgb(3, 177, 3);
     text-align: justify;
@@ -53,7 +45,6 @@ body {
 /* Third Row - First Column: Random Number */
 
 #random-box {
-    border: 3px solid black;
     background-color: darkcyan;
     color: black;
     text-align: left;
@@ -67,15 +58,7 @@ body {
 
 /* Third Row - Second Column: W/L Counters */
 
-.col-md-2 {
-    border: 3px solid red;
-    background-color: transparent;
-    margin: 0px;
-    margin-bottom: 0px;
-}
-
 #wins-loses-box {
-    border: 3px solid black;
     background-color: lightskyblue;
     color: darkslategrey;
     text-align: left;
@@ -90,47 +73,43 @@ body {
 /* Fourth Row - Crystals Buttons */
 
 .col-md-1 {
-    border: 3px solid red;
-    background-color: transparent;
     text-align: center;
-    margin: 0px;
     margin-left: 15px;
     margin-right: 15px;
-    margin-bottom: 0px;
 }
 
 .crystals {
     background-color: lightsteelblue;
-    border: 3px solid purple;
+    /* border: 1px solid darkblue;  */
     cursor: pointer;
     width: 100px;
     height: 100px;
     margin: 0px;
-    margin-bottom: 0px;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
 /* Fifth Row - Score header */
 
-#total-score-header {
-    border: 3px solid black;
+#total-score-header,
+#total-score-box {
     background-color: rgb(72, 168, 96);
     color: white;
+    margin-bottom: 0px;
+}
+
+#total-score-header {
     text-align: left;
     padding: 10px;
-    margin-bottom: 0px;
 }
 
 /* Sixth Row - Total Score */
 
 #total-score-box {
-    border: 3px solid black;
-    background-color: rgb(72, 168, 96);
-    color: white;
     text-align: justify;
     font-size: 18px;
     padding-left: 15px;
     padding-bottom: 30px;
     margin: 0px;
     margin-right: 0px;
-    margin-bottom: 0px;
 }
