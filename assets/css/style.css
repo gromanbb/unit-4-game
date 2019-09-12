@@ -1,0 +1,136 @@
+body {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+
+    /* Visual */
+    background-image: url("../images/crystal_background.png");
+    background-color: transparent;
+    background-blend-mode: screen;
+    background-repeat: repeat;
+    background-size: auto;
+}
+
+.container {
+    border: 3px solid blue;
+    padding: 1px;    
+}
+
+/* First Row - Header */
+
+.col-md-4 {
+    border: 3px solid red;
+    background-color: transparent;
+    margin: 0px;
+    margin-bottom: 0px;
+}
+
+.header {
+    border: 3px solid black;
+    background-color: rgb(255, 153, 0);
+    color: white;
+    text-align: center;
+}
+
+/* Second Row - Rules */
+
+.col-md-6 {
+    border: 3px solid red;
+    background-color: transparent;
+    margin: 0px;
+    margin-bottom: 0px;
+}
+
+#rules {
+    border: 3px solid black;
+    background-color: lightyellow;
+    color: rgb(3, 177, 3);
+    text-align: justify;
+    font-size: 15px;
+    padding: 5px;
+    margin: 0px;
+    margin-bottom: 0px;
+}
+
+/* Third Row - First Column: Random Number */
+
+#random-box {
+    border: 3px solid black;
+    background-color: darkcyan;
+    color: black;
+    text-align: left;
+    font-size: 18px;
+    padding-left: 15px;
+    padding-bottom: 25px;
+    margin: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+}
+
+/* Third Row - Second Column: W/L Counters */
+
+.col-md-2 {
+    border: 3px solid red;
+    background-color: transparent;
+    margin: 0px;
+    margin-bottom: 0px;
+}
+
+#wins-loses-box {
+    border: 3px solid black;
+    background-color: lightskyblue;
+    color: darkslategrey;
+    text-align: left;
+    font-size: 15px;
+    padding-left: 5px;
+    padding-right: 25px;
+    margin: 0px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+}
+
+/* Fourth Row - Crystals Buttons */
+
+.col-md-1 {
+    border: 3px solid red;
+    background-color: transparent;
+    text-align: center;
+    margin: 0px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 0px;
+}
+
+.crystals {
+    background-color: lightsteelblue;
+    border: 3px solid purple;
+    cursor: pointer;
+    width: 100px;
+    height: 100px;
+    margin: 0px;
+    margin-bottom: 0px;
+}
+
+/* Fifth Row - Score header */
+
+#total-score-header {
+    border: 3px solid black;
+    background-color: rgb(72, 168, 96);
+    color: white;
+    text-align: left;
+    padding: 10px;
+    margin-bottom: 0px;
+}
+
+/* Sixth Row - Total Score */
+
+#total-score-box {
+    border: 3px solid black;
+    background-color: rgb(72, 168, 96);
+    color: white;
+    text-align: justify;
+    font-size: 18px;
+    padding-left: 15px;
+    padding-bottom: 30px;
+    margin: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+}
